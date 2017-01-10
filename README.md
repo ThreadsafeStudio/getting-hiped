@@ -63,3 +63,8 @@ See: https://github.com/ThreadsafeStudio/getting-hiped/blob/master/src/main/java
 
 ### 7. Modify main class to work with HIP/SDK.
 See: https://github.com/ThreadsafeStudio/getting-hiped/commit/b70a858311249afb81ff17ae31d18c6d998362ce#diff-f49882b3169f6b42da956d59381c3b4e
+
+### 8. Add a controller, e.g. CareDocumentationController
+See: https://github.com/ThreadsafeStudio/getting-hiped/blob/master/src/main/java/com/threadsafestudio/hip/CareDocumentationController.java
+
+This controller posts consent on every request, which you wouldn't do in a real application, but it serves for demonstration purposes. Consent is posted here: https://github.com/ThreadsafeStudio/getting-hiped/blob/master/src/main/java/com/threadsafestudio/hip/CareDocumentationController.java#L52
