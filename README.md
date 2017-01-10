@@ -57,3 +57,9 @@ Enable auto-import in your IDE to have dependencies downloaded automatically:
 </dependency>
 ```
 See: https://github.com/ThreadsafeStudio/getting-hiped/blob/master/pom.xml#L47
+
+### 6. Add HipSDKConfiguration file
+See: https://github.com/ThreadsafeStudio/getting-hiped/blob/master/src/main/java/com/threadsafestudio/hip/HipSDKConfiguration.java
+
+### 7. Modify main class to work with HIP/SDK.
+See: https://github.com/ThreadsafeStudio/getting-hiped/commit/b70a858311249afb81ff17ae31d18c6d998362ce#diff-f49882b3169f6b42da956d59381c3b4e
