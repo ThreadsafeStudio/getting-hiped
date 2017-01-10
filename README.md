@@ -2,7 +2,18 @@
 Example project for running HIP/SDK, following instructions at http://hip.se/getting-hiped
 
 ## Running this example
-TODO
+Either use Maven from the command line:
+```
+
+```
+
+Or use your IDE, e.g. IntelliJ
+![image](https://cloud.githubusercontent.com/assets/193289/21815594/94a41288-d75d-11e6-8acb-792e6ad7fb9b.png)
+
+Then send HTTP requests:
+```
+curl localhost:8080/caredocumentation
+```
 
 ## Steps to reproduce this example
 
