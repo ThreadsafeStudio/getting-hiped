@@ -56,7 +56,7 @@
         </dependency>
         <dependency>
             <groupId>se.hip.sdk</groupId>
-            <artifactId>caredocumentation-service</artifactId>
+            <artifactId>carecontact-service</artifactId>
             <version>2.1.8</version>
         </dependency>
     </dependencies>
