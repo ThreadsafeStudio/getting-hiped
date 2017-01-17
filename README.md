@@ -83,9 +83,9 @@ Enable auto-import in your IDE to have dependencies downloaded automatically:
     <version>2.1.8</version>
 </dependency>
 <dependency>
-    <groupId>se.hip.sdk</groupId>
-    <artifactId>caredocumentation-service</artifactId>
-    <version>2.1.8</version>
+  <groupId>se.hip.sdk</groupId>
+  <artifactId>carecontact-service</artifactId>
+  <version>2.1.8</version>
 </dependency>
 ```
 See: https://github.com/ThreadsafeStudio/getting-hiped/blob/master/pom.xml#L47
@@ -96,7 +96,7 @@ See: https://github.com/ThreadsafeStudio/getting-hiped/blob/master/src/main/java
 ### 7. Modify main class to work with HIP/SDK.
 See: https://github.com/ThreadsafeStudio/getting-hiped/commit/b70a858311249afb81ff17ae31d18c6d998362ce#diff-f49882b3169f6b42da956d59381c3b4e
 
-### 8. Add a controller, e.g. CareDocumentationController
-See: https://github.com/ThreadsafeStudio/getting-hiped/blob/master/src/main/java/com/threadsafestudio/hip/CareDocumentationController.java
+### 8. Add a controller, e.g. CareContactController
+See: https://github.com/ThreadsafeStudio/getting-hiped/blob/master/src/main/java/com/threadsafestudio/hip/CareContactController.java
 
 This controller posts consent on every request, which you wouldn't do in a real application, but it serves for demonstration purposes. Consent is posted here: https://github.com/ThreadsafeStudio/getting-hiped/blob/master/src/main/java/com/threadsafestudio/hip/CareDocumentationController.java#L52
